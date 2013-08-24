@@ -1,15 +1,12 @@
-Overview
-===============
+<h1>Overview</h1>
 This repository includes the code which will be put on the BIS KickSat sprite.
 
-Dependecies
-===============
+<h2>Dependecies</h2>
 In order for the code to work the CCFlash, RadiationTest and TemperatureSensor directories need to be put into this directory:
 
     ~/EnergiaKickSatWindows/hardware/msp430/libraries
 
-Code Structure
-================
+<h2>Code Structure</h2>
 Our code has 3 main sections: 
 <ol>
     <li>Transmitting the temperature readings from the main processor and the gyroscope in Kelvin so we don't have to deal with minus signs. (Line 372)</li>
